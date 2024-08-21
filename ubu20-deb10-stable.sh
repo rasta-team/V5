@@ -547,13 +547,6 @@ systemctl start udp-mini-3
 print_success "Limit IP Service"
 }
 
-function ssh_slow(){
-clear
-# // Installing UDP Mini
-print_install "Memasang modul SlowDNS Server"
-    wget https://raw.githubusercontent.com/KhaiVpn767/SlowDnsV1/main/dns2.sh && chmod +x dns2.sh && ./dns2.sh
-}
-
 clear
 function ins_SSHD(){
 clear
